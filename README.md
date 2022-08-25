@@ -30,11 +30,11 @@ Installing the tool ->
 
 Using go
 ```bash
-▶ go install github.com/ferreiraklet/airixss@latest
+▶ go install github.com/itszeeshan/airixss@latest
 ```
 Using git clone
 ```bash
-▶ git clone https://github.com/ferreiraklet/airixss.git
+▶ git clone https://github.com/itszeeshan/airixss.git
 ▶ cd airixss
 ▶ go build airixss.go
 ▶ chmod +x airixss
