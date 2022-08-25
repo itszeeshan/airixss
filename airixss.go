@@ -211,7 +211,7 @@ func xss(urlt string, xssp string, proxy string, onlypoc bool) string {
         if check_xss != false {
                 return "\033[1;31mVulnerable To XSS - "+urlt+"\033[0;0m"
         }else{
-                return "\033[1;30mNot Vulnerable to XSS - "+urlt+"\033[0;0m"
+                return "\033[1;30mNo -> XSS - "+urlt+"\033[0;0m"
         }
 
 }
@@ -306,7 +306,7 @@ func xssDefault(urlt string, xssp string, proxy string, onlypoc bool) string {
         if check_xss != false {
                 return "\033[1;31mVulnerable To XSS - "+urlt+"\033[0;0m"
         }else{
-                return "\033[1;30mNot Vulnerable to XSS - "+urlt+"\033[0;0m"
+                return "\033[1;30mNo -> XSS - "+urlt+"\033[0;0m"
         }
 
 }
